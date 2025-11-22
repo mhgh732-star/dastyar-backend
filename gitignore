@@ -1,0 +1,101 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories (if you use other package managers)
+.jspm_packages/
+.pnp/
+.pnp.js
+.pnp.cjs
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build/output directories
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.temp/
+.tmp/
+
+# IDE / Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Parcel cache
+.cache
+.parcel-cache
+
+# Docker
+Dockerfile*
+.dockerignore
+.docker/
+
+# Testing
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Miscellaneous
+*.tsbuildinfo
+*.tgz
+*.zip
+*.tar.gz
+
+# Local development
+*.local
+.replit

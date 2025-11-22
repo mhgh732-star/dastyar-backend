@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/main.ts",
+    "src/app.module.ts",
+    "src/shared/**/*",
+    "src/config/**/*",
+    "src/common/**/*",
+    "src/types/**/*",
+    "src/modules/auth/**/*",
+    "src/modules/users/**/*",
+    "src/modules/courses/**/*",
+    "src/modules/roles/**/*",
+    "src/modules/admin/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
